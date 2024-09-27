@@ -1,5 +1,7 @@
 ## SciER
 
+**We are working on the code and data clean now. This repo will be updated soon!!!**
+
 The SciER dataset contains both entity annotation and relation annotation for scientific documents.
 
 

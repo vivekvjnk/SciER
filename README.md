@@ -8,7 +8,7 @@ It covers three kinds of entity types:
 - **Task**
 
 and 9 relation types:
-[Relation Types](./figures/SciER_type.jpg)
+![Relation Types](./figures/SciER_type.jpg)
 
 In the './SciER/LLM' folder, each set/file has already been transfered to LLM friendly format.
 Each row is a sentence and has following structure:

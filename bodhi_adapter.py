@@ -143,10 +143,10 @@ if __name__ == "__main__":
     dataset = load_jsonl('./SciER/LLM/test_ood.jsonl')
     # process_and_save_docs_to_md(data_list=dataset)
     number_of_entities,unique_entities = count_unique_ner_for_doc(data_list=dataset,doc_id="AAAI2024")
-    print(f"Number of entities : {number_of_entities}\n{"*"*20}\n{unique_entities}")
+    print(f"Number of entities : {number_of_entities}\n{"*"*20}\nNumber of unique entities: {len(unique_entities)}")
     json_path = './SciER/LLM/test_ood.jsonl'
-    yaml_path = '../../../infra/storage/Bodhi/doc_AAAI2024/doc_AAAI2024_graph.yml'
-    extract_entities(json_file=json_path,yaml_file=yaml_path)
+    # yaml_path = '../../../infra/storage/Bodhi/doc_AAAI2024/doc_AAAI2024_graph.yml'
+    # extract_entities(json_file=json_path,yaml_file=yaml_path)
 
 if __name__ == "__main__t":
     # Example usage with your provided JSON data
